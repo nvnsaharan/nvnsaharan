@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=0.6, maximum-scale=1"
+		/>
+
+		<link rel="icon" href="./images/nvn.png" type="image/x-icon" />
+		<script
+			src="https://kit.fontawesome.com/0e7f7f788a.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Naveen Saharan</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body id="the_body" style="background-image: url(images/macos-big-sur.jpg)">
+		<div id="loading">
+			<div id="loading_logo">
+				<img id="apple_logo" src="./images/apple-512.png" />
+				<div id="myProgress">
+					<div id="myBar"></div>
+				</div>
+				<div class="progress_text">
+					<span id="text_1">Installing </span>
+					<span id="text_2">Full Screen mode will be better</span
+					><img src="./images/gifs/gif.gif" />
+				</div>
+			</div>
+		</div>
+
+		<div id="main_body">
+			<div class="topbar">
+				<div
+					class="btn-group list1"
+					role="group"
+					aria-label="Basic example"
+				>
+					<button type="button" class="btn">
+						<i class="fab fa-apple"></i>
+					</button>
+					<button type="button" class="btn" id="mainli">
+						nvnsharan
+					</button>
+					<button type="button" class="btn">File</button>
+					<button type="button" class="btn">Edit</button>
+					<button type="button" class="btn">View</button>
+					<button type="button" class="btn">Go</button>
+					<button type="button" class="btn">Window</button>
+					<button type="button" class="btn">Help</button>
+				</div>
+				<div
+					class="btn-group list2"
+					role="group"
+					aria-label="Basic example"
+				>
+					<button type="button" class="btn">
+						<i class="fas fa-terminal"></i>
+					</button>
+					<button type="button" class="btn" id="mainli">
+						<i class="fas fa-history"></i>
+					</button>
+					<button type="button" class="btn">
+						<i class="fas fa-volume-up"></i>
+					</button>
+					<button type="button" class="btn">
+						<i class="fab fa-bluetooth-b"></i>
+					</button>
+					<button type="button" class="btn">
+						<i class="fas fa-wifi"></i>
+					</button>
+					<button type="button" class="btn">
+						100% <i class="fas fa-battery-full"></i>
+					</button>
+					<button type="button" id="Day-header" class="btn">
+						Sun
+					</button>
+					<button type="button" id="Time-header" class="btn">
+						3:17 pm
+					</button>
+					<button type="button" class="btn">
+						<i class="fas fa-search"></i>
+					</button>
+				</div>
+			</div>
+			<div id="digit_clock_date">
+				<div id="month_year_date">
+					<div id="month_year">
+						<span id="digit_clock_day"></span>
+						<div id="digit_clock_month"></div>
+						<span id="digit_clock_year"></span>
+					</div>
+					<span id="digit_clock_thedate"></span>
+				</div>
+			</div>
+			<div id="digit_clock">
+				<div id="digit_clock_time"></div>
+				<div id="digit_clock_midday"></div>
+			</div>
+			<div class="folder-icon">
+				<div class="folder-icons">
+					<a href="./store/ResumeNaveen.pdf"
+						><img src="./images/download.png"
+					/></a>
+					<p>Download Resume</p>
+				</div>
+				<div class="folder-icons" onclick="changeWallpaper(1)">
+					<img
+						class="wallpaper"
+						id="wallpaper_1"
+						src="../images/wallpapers/1.jpg"
+					/>
+					<p>Wall1.png</p>
+				</div>
+				<div class="folder-icons" onclick="changeWallpaper(2)">
+					<img
+						class="wallpaper"
+						id="wallpaper_2"
+						src="../images/wallpapers/2.jpg"
+					/>
+					<p>Wall2.png</p>
+				</div>
+			</div>
+
+			<div class="apps-container">
+				<div class="apps">
+					<img
+						id="AboutMe"
+						src="./images/Finder_Icon_macOS_Big_Sur.png"
+					/>
+					<p class="apps-detail">AboutMe</p>
+				</div>
+				<div class="apps">
+					<img id="Skills" src="./images/skills.png" />
+					<p class="apps-detail">My Skills</p>
+				</div>
+				<div class="apps">
+					<img id="Resume" src="./images/google_docs.png" />
+					<p class="apps-detail">Resume</p>
+				</div>
+
+				<span class="vertical-line"></span>
+				<div class="apps">
+					<img id="project" src="./images/code-96.png" />
+					<p class="apps-detail">About Projects</p>
+				</div>
+				<div class="apps">
+					<img id="corona-tracker" src="./images/virus-96.png" />
+					<p class="apps-detail">Corona Tracker</p>
+				</div>
+				<div class="apps">
+					<a href="https://nvnchatapp.herokuapp.com/" target="_blank">
+						<img
+							id="videoChatApp"
+							src="./images/icons8-video-message-96.png"
+						/>
+						<p class="apps-detail">Video Chat App</p>
+					</a>
+				</div>
+				<div class="apps">
+					<img
+						id="multiplayerSnake"
+						src="./images/icons8-snake-64.png"
+					/>
+					<p class="apps-detail">Multiplayer Snake</p>
+				</div>
+				<div class="apps">
+					<img id="themableResume" src="./images/resumeclone.png" />
+					<p class="apps-detail">Themable Resume</p>
+				</div>
+				<div class="apps">
+					<img id="fb-tracker" src="./images/facebook-96.png" />
+					<p class="apps-detail">fb clone</p>
+				</div>
+
+				<span class="vertical-line"></span>
+				<div class="apps">
+					<img id="gmail" src="./images/icons8-mail-144.png" />
+					<p class="apps-detail">Contact me</p>
+				</div>
+			</div>
+			<div class="hidden"></div>
+		</div>
+		<script src="./js/main.js"></script>
+		<script src="./js/winbox.bundle.js"></script>
+	</body>
+</html>
