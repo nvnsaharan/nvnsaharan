@@ -353,7 +353,7 @@ body {
 	background-color: transparent;
 	border-color: transparent;
 	padding: 0px 6px !important;
-	font-size: 98%;
+	font-size: 100% !important;
 }
 .btn:hover {
 	color: #000;
