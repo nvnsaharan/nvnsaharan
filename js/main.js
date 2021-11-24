@@ -15,14 +15,15 @@ const multiplayerSnake = document.querySelector("#multiplayerSnake");
 const aboutContent = document.querySelector("#about-content");
 const projectContent = document.querySelector("#project-content");
 
-const wait = (delay = 100) =>
-    new Promise((resolve) => setTimeout(resolve, delay));
+// const wait = (delay = 100) =>
+//     new Promise((resolve) => setTimeout(resolve, delay));
 
-document.addEventListener("DOMContentLoaded", () => {
-    wait(7500).then(() => {
-        about.click();
-    });
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//     wait(7500).then(() => {
+//         about.click();
+//     });
+// });
+
 project.addEventListener("click", () => {
     const projectBox = new WinBox({
         title: "About Projects",

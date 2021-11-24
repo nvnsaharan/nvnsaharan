@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
 
 * {
     -webkit-box-sizing: border-box;
@@ -8,7 +7,7 @@
     margin: 0;
 }
 body {
-    font-family: "Roboto Mono", sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     background-color: #333;
     font-size: 18px;
     line-height: 1.6;
@@ -35,17 +34,87 @@ body {
     background-color: #000;
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-animation: go_up 0.5s linear;
-    animation: go_up 0.5s linear;
+    /* -webkit-animation: go_up 0.5s linear;
+    animation: go_up 0.5s linear; */
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
 }
+@keyframes showTopText {
+    0% {
+        transform: translate3d(0, 100%, 0);
+    }
+    40%,
+    60% {
+        transform: translate3d(0, 50%, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes showBottomText {
+    0% {
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+.animated-title {
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    height: 60vmin;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vmin;
+}
+.text-top,
+.text-bottom {
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.top-div,
+.bottom-div {
+    font-size: 12vmin;
+    padding: 1vmin 0;
+    position: absolute;
+    line-height: initial;
+}
+.animated-title > div div span {
+    display: block;
+}
+.animated-title > div.text-top {
+    top: 0;
+}
+.animated-title > div.text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+    color: #767676;
+}
+.animated-title > div.text-bottom {
+    bottom: 0;
+}
+.animated-title > div.text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    top: 0;
+    transform: translate(0, -100%);
+}
 .progress_text {
     font-size: 12px;
     color: white;
-    font-family: sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     margin-top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -197,9 +266,11 @@ body {
 }
 #myProgress {
     width: 20%;
-    min-width: 200px;
+    min-width: 60vmin;
     background-color: grey;
     border-radius: 5px;
+    position: absolute;
+    top: 50%;
 }
 #myBar {
     width: 0%;
@@ -379,12 +450,12 @@ body {
     height: 60px;
     width: 60px;
 }
-#AboutMe {
+/* #AboutMe {
     -webkit-animation: go_up_apps 0.5s linear;
     animation: go_up_apps 0.5s linear;
     -webkit-animation-delay: 6s;
     animation-delay: 6s;
-}
+} */
 @-webkit-keyframes go_up_apps {
     0% {
         -webkit-transform: translateY(-10px);
@@ -533,7 +604,7 @@ body {
     font-weight: bold;
 }
 #digit_clock_time {
-    font-family: sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     color: rgba(235, 235, 235, 0.9);
     font-size: 30px;
     text-align: center;
@@ -541,14 +612,14 @@ body {
     line-height: 30px;
 }
 #digit_clock_midday {
-    font-family: sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     color: rgba(235, 235, 235, 0.9);
     font-size: 12px;
     text-align: right;
     line-height: 12px;
 }
 #digit_clock_date {
-    font-family: sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     color: rgba(235, 235, 235, 0.9);
     width: 30%;
     display: -webkit-box;
@@ -598,7 +669,7 @@ body {
     font-weight: bolder;
 }
 #digit_clock {
-    font-family: sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;

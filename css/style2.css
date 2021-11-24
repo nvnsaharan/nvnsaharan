@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+
 * {
     margin: 0px;
     padding: 0px;
@@ -140,7 +142,7 @@
 .intern-option a {
     font-weight: bold;
     color: cadetblue;
-    font-family: Georgia;
+    font-family: Roboto, Arial, sans-serif;
 }
 .intern-option a:hover {
     color: cadetblue;
@@ -169,7 +171,7 @@
     cursor: pointer;
 }
 .email_add {
-    font-family: sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 .Links_content {
     display: -webkit-box;
@@ -252,14 +254,14 @@
 .profile-badge__content-profile-headline {
     font-weight: bold !important;
     color: cadetblue !important;
-    font-family: Georgia !important;
+    font-family: Roboto, Arial, sans-serif !important;
     font-size: 1.6rem !important;
     margin: 0px 5%;
 }
 .profile-badge__content-profile-company-school-info-link--light {
     font-weight: bold !important;
     color: cadetblue !important;
-    font-family: Georgia !important;
+    font-family: Roboto, Arial, sans-serif !important;
     font-size: 1.6rem !important;
     margin: 0px 5%;
     display: contents;
