@@ -100,29 +100,7 @@
     justify-content: center;
     width: 100%;
 }
-@media screen and (max-width: 700px) {
-    .navlink {
-        width: 50px;
-        display: -webkit-box !important;
-        display: -ms-flexbox !important;
-        display: flex !important;
-        padding: 0px !important;
-        -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-        justify-content: center !important;
-    }
-    .navlink i {
-        margin: 0px;
-    }
-    .navlink_text {
-        display: none;
-    }
-    #v-pills-tab {
-        width: 50px;
-        min-width: 0px;
-        background: rgb(236, 224, 203);
-    }
-}
+
 @media screen and (max-width: 900px) {
     #main_page {
         padding: 0px;
@@ -183,42 +161,6 @@
 .Links_content .content_head {
     min-width: 300px;
     width: 50%;
-}
-.navlink .active {
-    background: whitesmoke;
-    font-weight: bold;
-}
-.navlink {
-    height: 5%;
-    min-height: 40px;
-    border-bottom: 0.5px solid lightgray;
-    font-size: 14px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 0px 30px;
-    -webkit-box-pack: left;
-    -ms-flex-pack: left;
-    justify-content: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-decoration: none;
-    cursor: pointer;
-}
-.navlink a {
-    color: #505050;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.navlink a:hover {
-    text-decoration: none;
-    color: #7e7e7e !important;
-}
-.navlink i {
-    margin-right: 10px;
-    font-size: 18px;
 }
 .profile-badge--width-330 {
     width: 100% !important;

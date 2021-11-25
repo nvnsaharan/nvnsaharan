@@ -1,429 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>About</title>
-		<script
-			src="https://kit.fontawesome.com/0e7f7f788a.js"
-			crossorigin="anonymous"
-		></script>
-		<link rel="stylesheet" href="../css/style.css" />
-		<link rel="stylesheet" href="../css/style2.css" />
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-			crossorigin="anonymous"
-		/>
-		<script
-			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-			crossorigin="anonymous"
-		></script>
-	</head>
-	<body>
-		<div class="icons-container">
-			<div class="btn-group mr-2" role="group" aria-label="First group">
-				<button type="button" class="btn btnsecondary">
-					<i class="fas fa-chevron-left"></i>
-				</button>
-				<button type="button" class="btn btnsecondary">
-					<i class="fas fa-chevron-right"></i>
-				</button>
-			</div>
-			<div class="middle_icons">
-				<div
-					class="btn-group mr-2"
-					role="group"
-					aria-label="First group"
-				>
-					<button type="button" class="btn btnsecondary">
-						<i class="fas fa-th-large"></i>
-					</button>
-					<button type="button" class="btn btnsecondary">
-						<i class="fas fa-grip-lines"></i>
-					</button>
-					<button type="button" class="btn btnsecondary">
-						<i class="fas fa-box"></i>
-					</button>
-					<button type="button" class="btn btnsecondary">
-						<i class="far fa-square"></i>
-					</button>
-				</div>
-				<div class="dropdown">
-					<a
-						class="btn btnsecondary dropdown-toggle"
-						href="#"
-						role="button"
-						id="dropdownMenuLink"
-						data-toggle="dropdown"
-						aria-haspopup="true"
-						aria-expanded="false"
-					>
-						<i class="fas fa-th"></i>
-					</a>
-				</div>
-				<div class="dropdown">
-					<a
-						class="btn btnsecondary dropdown-toggle"
-						href="#"
-						role="button"
-						id="dropdownMenuLink"
-						data-toggle="dropdown"
-						aria-haspopup="true"
-						aria-expanded="false"
-					>
-						<i class="fas fa-cog"></i>
-					</a>
-				</div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About</title>
 
-				<button type="button" class="btn btnsecondary">
-					<i class="far fa-caret-square-up"></i>
-				</button>
-				<button type="button" class="btn btnsecondary">
-					<i class="fas fa-tag"></i>
-				</button>
-			</div>
-			<form class="forminline">
-				<input
-					class="searchform"
-					type="search"
-					placeholder="Search"
-					aria-label="Search"
-				/>
-			</form>
-		</div>
-		<div class="about_main_contant">
-			<div id="v-pills-tab">
-				<div class="navlink">
-					<a href="#Profile">
-						<i class="fas fa-user-alt"></i
-						><span class="navlink_text"> Profile </span>
-					</a>
-				</div>
-				<div class="navlink">
-					<a href="#About_me">
-						<i class="fas fa-hand-peace"></i
-						><span class="navlink_text"> About me</span>
-					</a>
-				</div>
-				<div class="navlink">
-					<a href="#Experience">
-						<i class="fas fa-drafting-compass"></i
-						><span class="navlink_text"> Experience </span>
-					</a>
-				</div>
-				<div class="navlink">
-					<a href="#Projects">
-						<i class="fas fa-code"></i
-						><span class="navlink_text"> Projects </span>
-					</a>
-				</div>
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/style2.css" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div class="about_main_contant">
+            <div id="main_page">
+                <div class="main_pages profile" id="Profile">
+                    <figure>
+                        <img id="profile_bc" src="../images/linkedin_bg.png" />
+                        <img
+                            src="../images/profile_img.jpeg"
+                            alt="nVn"
+                            id="pic"
+                        />
+                    </figure>
+                    <div class="profile_data">
+                        <h2>Naveen Saharan</h2>
+                        <h5>
+                            Frontend Developer = Python | Javascript | Reactjs |
+                            UI
+                        </h5>
+                    </div>
+                </div>
+                <div class="main_pages" id="About_me">
+                    <div class="main_page2">
+                        <div class="header">About</div>
+                        <div class="main_pages_content">
+                            <h4 class="intern-option">
+                                "Perfect Quality, Smart Design, Customer
+                                Satisfaction"
+                            </h4>
+                            <h5>I am Naveen.</h5>
+                            <h5>
+                                I'm passionate about great UX, quality code,
+                                best practices, clean minimal interfaces, and
+                                performance. What makes a company grow is the
+                                way they represent their conception, and in this
+                                online culture, your website represents your
+                                conception. That's why I endeavor my best to
+                                give the WOW feeling to every website I work on.
+                            </h5>
+                            <h5>
+                                Despite studies, I am an anime lover who loves
+                                to connect with new people, having meaningful
+                                conversations and sharing life experiences and
+                                ideas.
+                            </h5>
+                            <h5>
+                                My favorite color is gray because I don't have
+                                to change that for dark and light themes :P.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_pages" id="Experience">
+                    <div class="main_page2">
+                        <div class="header">Experience</div>
+                        <div class="main_pages_content">
+                            <div class="content_head">
+                                <img src="../images/twt.png" />
+                                <div>
+                                    <h5>Web Developer, The Hobby Tribe</h5>
+                                    <p class="intern-option">
+                                        React native | Redux | MongoDb | Nodejs
+                                        | Ejs
+                                    </p>
+                                </div>
+                            </div>
 
-				<div class="navlink">
-					<a href="#Education">
-						<i class="fas fa-graduation-cap"></i
-						><span class="navlink_text"> Education </span>
-					</a>
-				</div>
-				<!-- <div class="navlink">
-					<a href="#Links">
-						<i class="fab fa-linkedin"></i
-						><span class="navlink_text"> LinkedIn </span>
-					</a>
-				</div> -->
-				<div class="navlink">
-					<a href="#Links">
-						<i class="fas fa-link"></i
-						><span class="navlink_text"> Links </span>
-					</a>
-				</div>
-				<div class="navlink">
-					<a href="#Skills">
-						<i class="fas fa-th-list"></i
-						><span class="navlink_text"> Skills </span>
-					</a>
-				</div>
-				<div class="navlink">
-					<a href="#Contact">
-						<i class="fas fa-envelope"></i
-						><span class="navlink_text"> Contact </span>
-					</a>
-				</div>
-				<div class="navlink">
-					<a href="#Wallpapers">
-						<i class="fas fa-desktop"></i
-						><span class="navlink_text"> Wallpapers </span>
-					</a>
-				</div>
-			</div>
-			<div id="main_page">
-				<div class="main_pages profile" id="Profile">
-					<figure>
-						<img id="profile_bc" src="../images/linkedin_bg.png" />
-						<img
-							src="../images/profile_img.jpeg"
-							alt="nVn"
-							id="pic"
-						/>
-					</figure>
-					<div class="profile_data">
-						<h2>Naveen Saharan</h2>
-						<h5>
-							Frontend Developer = Python | Javascript | Reactjs |
-							UI
-						</h5>
-					</div>
-				</div>
-				<div class="main_pages" id="About_me">
-					<div class="main_page2">
-						<div class="header">About</div>
-						<div class="main_pages_content">
-							<h4 class="intern-option">
-								"Perfect Quality, Smart Design, Customer
-								Satisfaction"
-							</h4>
-							<h5>I am Naveen.</h5>
-							<h5>
-								I'm passionate about great UX, quality code,
-								best practices, clean minimal interfaces, and
-								performance. What makes a company grow is the
-								way they represent their conception, and in this
-								online culture, your website represents your
-								conception. That's why I endeavor my best to
-								give the WOW feeling to every website I work on.
-							</h5>
-							<h5>
-								Despite studies, I am an anime lover who loves
-								to connect with new people, having meaningful
-								conversations and sharing life experiences and
-								ideas.
-							</h5>
-							<h5>
-								My favorite color is gray because I don't have
-								to change that for dark and light themes :P.
-							</h5>
-						</div>
-					</div>
-				</div>
-				<div class="main_pages" id="Experience">
-					<div class="main_page2">
-						<div class="header">Experience</div>
-						<div class="main_pages_content">
-							<div class="content_head">
-								<img src="../images/twt.png" />
-								<div>
-									<h5>Front End Intern, TimeWillTalk</h5>
-									<p class="intern-option">
-										React.js | AWS | Antd | UI
-									</p>
-								</div>
-							</div>
+                            <ul>
+                                <li class="list-options">
+                                    Developed a video conferencing web
+                                    application with a team of three with
+                                    features like video sharing, video streaming
+                                    and messaging with advanced features like
+                                    block, flter and delete to stop bullying and
+                                    spamming
+                                </li>
+                                <li class="list-options">
+                                    Developed a module to automate timely class
+                                    reminders to registered students on whatsapp
+                                    and email
+                                </li>
+                                <li class="list-options">
+                                    Used Custom API for scheduling where
+                                    teachers can schedule private classes and
+                                    students can book the class based on their
+                                    preferences
+                                </li>
+                                <li class="list-options">
+                                    Revamped the complete existing platform from
+                                    Node.js to React native and improved its
+                                    performance and efciency
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main_pages_content">
+                            <div class="content_head">
+                                <img src="../images/twt.png" />
+                                <div>
+                                    <h5>Front End Intern, TimeWillTalk</h5>
+                                    <p class="intern-option">
+                                        React.js | AWS | Antd | UI
+                                    </p>
+                                </div>
+                            </div>
 
-							<ul>
-								<li class="list-options">
-									Develop a high-performance web application
-									using ReactJS, Redux, React-Router, and Antd
-									components
-								</li>
-								<li class="list-options">
-									Built custom components for UX-Library
-									consisting of Modal, Dropdown, Carousel,
-									Button, Checkbox, Inputs, Icons
-								</li>
-								<li class="list-options">
-									Ensure mobile compatibility/responsiveness
-									of full website on all platforms and
-									browsers
-								</li>
-								<li class="list-options">
-									Design and apply styling and layout changes
-									to the existing application
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="main_pages" id="Projects">
-					<div class="main_page2">
-						<div class="header">Projects</div>
-						<div class="main_pages_content">
-							<div class="content_head">
-								<img src="../images/virus-96.png" />
-								<div>
-									<h5>My Covid-19 Tracker</h5>
-									<p class="intern-option">
-										React.js | Firebase | Material UI |
-										Leaflet | Chartjs | disease.sh
-									</p>
-								</div>
-							</div>
+                            <ul>
+                                <li class="list-options">
+                                    Develop a high-performance web application
+                                    using ReactJS, Redux, React-Router, and Antd
+                                    components
+                                </li>
+                                <li class="list-options">
+                                    Built custom components for UX-Library
+                                    consisting of Modal, Dropdown, Carousel,
+                                    Button, Checkbox, Inputs, Icons
+                                </li>
+                                <li class="list-options">
+                                    Ensure mobile compatibility/responsiveness
+                                    of full website on all platforms and
+                                    browsers
+                                </li>
+                                <li class="list-options">
+                                    Design and apply styling and layout changes
+                                    to the existing application
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_pages" id="Projects">
+                    <div class="main_page2">
+                        <div class="header">Projects</div>
+                        <div class="main_pages_content">
+                            <div class="content_head">
+                                <img src="../images/virus-96.png" />
+                                <div>
+                                    <h5>My Covid-19 Tracker</h5>
+                                    <p class="intern-option">
+                                        React.js | Firebase | Material UI |
+                                        Leaflet | Chartjs | disease.sh
+                                    </p>
+                                </div>
+                            </div>
 
-							<ul>
-								<li class="list-options">
-									Covid-19 tracker using React.js and
-									disease.sh API
-								</li>
-								<li class="list-options">
-									Used react-leaflet for a map to showcases
-									with circles and material-UI for good design
-								</li>
-								<li class="list-options">
-									Used react-chartjs for line chart to show
-									growth of total corona cases, recovered
-									patients, and deaths
-								</li>
-							</ul>
-							<div class="content_head">
-								<img src="../images/google_docs.png" />
-								<div>
-									<h5>Covitify</h5>
-									<p class="intern-option">
-										Node.js | express.js | firebase |
-										nodemailer | smtp gmail | cdn-api
-									</p>
-								</div>
-							</div>
+                            <ul>
+                                <li class="list-options">
+                                    Covid-19 tracker using React.js and
+                                    disease.sh API
+                                </li>
+                                <li class="list-options">
+                                    Used react-leaflet for a map to showcases
+                                    with circles and material-UI for good design
+                                </li>
+                                <li class="list-options">
+                                    Used react-chartjs for line chart to show
+                                    growth of total corona cases, recovered
+                                    patients, and deaths
+                                </li>
+                            </ul>
+                            <div class="content_head">
+                                <img src="../images/google_docs.png" />
+                                <div>
+                                    <h5>Covitify</h5>
+                                    <p class="intern-option">
+                                        Node.js | express.js | firebase |
+                                        nodemailer | smtp gmail | cdn-api
+                                    </p>
+                                </div>
+                            </div>
 
-							<ul>
-								<li class="list-options">
-									A covin vaccine availability notifier to
-									help friend and family using my programming
-									skills
-								</li>
-								<li class="list-options">
-									used firebase as a database to store pincode
-									and email accounts of users to use them
-									later
-								</li>
-								<li class="list-options">
-									used cdn-api to check availability on
-									different centers and then sending data to
-									user using nodemailer
-								</li>
-							</ul>
-							<div class="content_head">
-								<img src="../images/icons8-snake-64.png" />
-								<div>
-									<h5>Multiplayer Snake game</h5>
-									<p class="intern-option">
-										Node.js | express.js | Socket.io
-									</p>
-								</div>
-							</div>
+                            <ul>
+                                <li class="list-options">
+                                    A covin vaccine availability notifier to
+                                    help friend and family using my programming
+                                    skills
+                                </li>
+                                <li class="list-options">
+                                    used firebase as a database to store pincode
+                                    and email accounts of users to use them
+                                    later
+                                </li>
+                                <li class="list-options">
+                                    used cdn-api to check availability on
+                                    different centers and then sending data to
+                                    user using nodemailer
+                                </li>
+                            </ul>
+                            <div class="content_head">
+                                <img src="../images/icons8-snake-64.png" />
+                                <div>
+                                    <h5>Multiplayer Snake game</h5>
+                                    <p class="intern-option">
+                                        Node.js | express.js | Socket.io
+                                    </p>
+                                </div>
+                            </div>
 
-							<ul>
-								<li class="list-options">
-									A snake game for multiple users to play on a
-									same board using socket.io room
-								</li>
-								<li class="list-options">
-									Learnt how to convert a single player online
-									game to multiplayer using current state of
-									players
-								</li>
-							</ul>
-							<div class="content_head">
-								<img src="../images/skills.png" />
-								<div>
-									<h5>GrpChat chrome extension</h5>
-									<p class="intern-option">
-										Firebase | uuid | Extension
-									</p>
-								</div>
-							</div>
+                            <ul>
+                                <li class="list-options">
+                                    A snake game for multiple users to play on a
+                                    same board using socket.io room
+                                </li>
+                                <li class="list-options">
+                                    Learnt how to convert a single player online
+                                    game to multiplayer using current state of
+                                    players
+                                </li>
+                            </ul>
+                            <div class="content_head">
+                                <img src="../images/skills.png" />
+                                <div>
+                                    <h5>GrpChat chrome extension</h5>
+                                    <p class="intern-option">
+                                        Firebase | uuid | Extension
+                                    </p>
+                                </div>
+                            </div>
 
-							<ul>
-								<li class="list-options">
-									A chat app inspired by WhatsApp, which
-									allows users to chat in real-time in
-									channels to share contents directly from
-									browsers
-								</li>
-								<li class="list-options">
-									Implemented rooms with unique join id and
-									password to make secure groups between
-									friends
-								</li>
-							</ul>
-							<div class="content_head">
-								<img
-									src="../images/icons8-video-message-96.png"
-								/>
-								<div>
-									<h5>VideoChat app</h5>
-									<p class="intern-option">
-										Node.js | express.js | Socket.io |
-										Bootstrap
-									</p>
-								</div>
-							</div>
+                            <ul>
+                                <li class="list-options">
+                                    A chat app inspired by WhatsApp, which
+                                    allows users to chat in real-time in
+                                    channels to share contents directly from
+                                    browsers
+                                </li>
+                                <li class="list-options">
+                                    Implemented rooms with unique join id and
+                                    password to make secure groups between
+                                    friends
+                                </li>
+                            </ul>
+                            <div class="content_head">
+                                <img
+                                    src="../images/icons8-video-message-96.png"
+                                />
+                                <div>
+                                    <h5>VideoChat app</h5>
+                                    <p class="intern-option">
+                                        Node.js | express.js | Socket.io |
+                                        Bootstrap
+                                    </p>
+                                </div>
+                            </div>
 
-							<ul>
-								<li class="list-options">
-									A zoom clone with chat and video call
-									functionality using Socket.io
-								</li>
-							</ul>
+                            <ul>
+                                <li class="list-options">
+                                    A zoom clone with chat and video call
+                                    functionality using Socket.io
+                                </li>
+                            </ul>
 
-							<div class="content_head">
-								<img src="../images/resumeclone.png" />
-								<div>
-									<h5>React Customisable Resume</h5>
-									<p class="intern-option">
-										React.js | Firebase | Material UI |
-										Bootstrap
-									</p>
-								</div>
-							</div>
-							<ul>
-								<li class="list-options">
-									A Theme-able Static Website showing the
-									Printable Resume
-								</li>
-								<li class="list-options">
-									Learn to print a specific component and
-									changeable themes of our react app
-								</li>
-								<li class="list-options">
-									Can be used to show specific content and
-									display ads in the least annoying way by
-									showing users ads based on user choices
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="main_pages" id="Education">
-					<div class="main_page2">
-						<div class="header">Education</div>
-						<div class="content_head">
-							<img src="../images/iitd_logo.jpg" />
-							<div>
-								<div class="main_pages_content">
-									<h5>2018 - PRESENT</h5>
-									<p class="intern-option">
-										B.Tech, Indian Institute of Technology
-										Delhi
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- <div class="main_pages" id="LinkedIn">
+                            <div class="content_head">
+                                <img src="../images/resumeclone.png" />
+                                <div>
+                                    <h5>React Customisable Resume</h5>
+                                    <p class="intern-option">
+                                        React.js | Firebase | Material UI |
+                                        Bootstrap
+                                    </p>
+                                </div>
+                            </div>
+                            <ul>
+                                <li class="list-options">
+                                    A Theme-able Static Website showing the
+                                    Printable Resume
+                                </li>
+                                <li class="list-options">
+                                    Learn to print a specific component and
+                                    changeable themes of our react app
+                                </li>
+                                <li class="list-options">
+                                    Can be used to show specific content and
+                                    display ads in the least annoying way by
+                                    showing users ads based on user choices
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_pages" id="Education">
+                    <div class="main_page2">
+                        <div class="header">Education</div>
+                        <div class="content_head">
+                            <img src="../images/iitd_logo.jpg" />
+                            <div>
+                                <div class="main_pages_content">
+                                    <h5>2018 - PRESENT</h5>
+                                    <p class="intern-option">
+                                        B.Tech, Indian Institute of Technology
+                                        Delhi
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="main_pages" id="LinkedIn">
 					<div class="main_page2">
 						<iframe
 							src="./linkedin.html"
@@ -432,240 +319,167 @@
 						></iframe>
 					</div>
 				</div> -->
-				<div class="main_pages" id="Links">
-					<div class="main_page2">
-						<div class="header">Other Links</div>
+                <div class="main_pages" id="Links">
+                    <div class="main_page2">
+                        <div class="header">Other Links</div>
 
-						<div class="main_pages_content Links_content">
-							<div class="content_head">
-								<a
-									href="https://github.com/nvnsaharan"
-									target="_blank"
-								>
-									<img src="../images/icons8-github-384.png"
-								/></a>
+                        <div class="main_pages_content Links_content">
+                            <div class="content_head">
+                                <a
+                                    href="https://github.com/nvnsaharan"
+                                    target="_blank"
+                                >
+                                    <img src="../images/icons8-github-384.png"
+                                /></a>
 
-								<div>
-									<h5>Github</h5>
-									<p class="intern-option">
-										<a
-											href="https://github.com/nvnsaharan"
-											target="_blank"
-										>
-											nvnsaharan</a
-										>
-									</p>
-								</div>
-							</div>
-							<div class="content_head">
-								<a
-									href="https://www.linkedin.com/in/nvnsaharan/"
-									target="_blank"
-								>
-									<img
-										src="../images/icons8-linkedin-240.png"
-								/></a>
+                                <div>
+                                    <h5>Github</h5>
+                                    <p class="intern-option">
+                                        <a
+                                            href="https://github.com/nvnsaharan"
+                                            target="_blank"
+                                        >
+                                            nvnsaharan</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content_head">
+                                <a
+                                    href="https://www.linkedin.com/in/nvnsaharan/"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="../images/icons8-linkedin-240.png"
+                                /></a>
 
-								<div>
-									<h5>LinkedIn</h5>
-									<p class="intern-option">
-										<a
-											href="https://www.linkedin.com/in/nvnsaharan/"
-											target="_blank"
-										>
-											Naveen Saharan</a
-										>
-									</p>
-								</div>
-							</div>
+                                <div>
+                                    <h5>LinkedIn</h5>
+                                    <p class="intern-option">
+                                        <a
+                                            href="https://www.linkedin.com/in/nvnsaharan/"
+                                            target="_blank"
+                                        >
+                                            Naveen Saharan</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
 
-							<div class="content_head">
-								<a
-									href="https://codeforces.com/profile/Am_nVn"
-									target="_blank"
-								>
-									<img src="../images/codeforces-logo.png"
-								/></a>
+                            <div class="content_head">
+                                <a
+                                    href="https://codeforces.com/profile/Am_nVn"
+                                    target="_blank"
+                                >
+                                    <img src="../images/codeforces-logo.png"
+                                /></a>
 
-								<div>
-									<h5>CodeForces</h5>
-									<p class="intern-option">
-										<a
-											href="https://codeforces.com/profile/Am_nVn"
-											target="_blank"
-										>
-											Am_nVn</a
-										>
-									</p>
-								</div>
-							</div>
+                                <div>
+                                    <h5>CodeForces</h5>
+                                    <p class="intern-option">
+                                        <a
+                                            href="https://codeforces.com/profile/Am_nVn"
+                                            target="_blank"
+                                        >
+                                            Am_nVn</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
 
-							<div class="content_head">
-								<a
-									href="https://codeforces.com/profile/Am_nVn"
-									target="_blank"
-								>
-									<img src="../images/codechef.png"
-								/></a>
+                            <div class="content_head">
+                                <a
+                                    href="https://codeforces.com/profile/Am_nVn"
+                                    target="_blank"
+                                >
+                                    <img src="../images/codechef.png"
+                                /></a>
 
-								<div>
-									<h5>Codechef</h5>
-									<p class="intern-option">
-										<a
-											href="https://codeforces.com/profile/Am_nVn"
-											target="_blank"
-										>
-											nvnsharan</a
-										>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="main_pages" id="Skills">
-					<div class="main_page2">
-						<div class="header">Techanical Skills</div>
-						<div class="content_head">
-							<div>
-								<div class="main_pages_content">
-									<h5>Languages</h5>
-									<p class="intern-option">
-										Python | C++ | Javascript
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="content_head">
-							<div>
-								<div class="main_pages_content">
-									<h5>Web development</h5>
-									<p class="intern-option">
-										React.js | HTML | CSS | Redux |
-										Bootstrap
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="content_head">
-							<div>
-								<div class="main_pages_content">
-									<h5>Software/Skills</h5>
-									<p class="intern-option">
-										Data structures and algorithms |
-										Autodesk Inventor | Adobe Photoshop |
-										Adobe illustrator | VS Code | Linux |
-										Firebase | AnyLogic
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="main_pages" id="Contact">
-					<div class="main_page2">
-						<div class="header">Contect</div>
-						<div class="content_head">
-							<img src="../images/gmail-logo-16.png" />
-							<div>
-								<div class="main_pages_content">
-									<h5>Email</h5>
-									<p class="intern-option email_add">
-										<a
-											href="mailto:bb1180026@iitd.ac.in"
-											target="_blank"
-										>
-											bb1180026@iitd.ac.in</a
-										>
-										|
-										<a
-											href="mailto:saharan.nvn@gmail.com"
-											target="_blank"
-										>
-											saharan.nvn@gmail.com</a
-										>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="main_pages wallpaper" id="Wallpapers">
-					<div class="main_page2">
-						<div class="header">Wallpaper</div>
-						<div class="main_pages_content all_wallpapers">
-							<div
-								class="wallpaper_div"
-								onclick="changeWallpaper(1)"
-							>
-								<img
-									class="wallpapers"
-									id="wallpaper_1"
-									src="../images/wallpapers/1.jpg"
-								/>
-								<h4>Wallpaper</h4>
-							</div>
-							<div
-								class="wallpaper_div"
-								onclick="changeWallpaper(2)"
-							>
-								<img
-									class="wallpapers"
-									id="wallpaper_2"
-									src="../images/wallpapers/2.jpg"
-								/>
-								<h4>Wallpaper</h4>
-							</div>
-							<div
-								class="wallpaper_div"
-								onclick="changeWallpaper(3)"
-							>
-								<img
-									class="wallpapers"
-									id="wallpaper_3"
-									src="../images/wallpapers/3.png"
-								/>
-								<h4>Wallpaper</h4>
-							</div>
-							<div
-								class="wallpaper_div"
-								onclick="changeWallpaper(4)"
-							>
-								<img
-									class="wallpapers"
-									id="wallpaper_4"
-									src="../images/wallpapers/4.jpg"
-								/>
-								<h4>Wallpaper</h4>
-							</div>
-							<div
-								class="wallpaper_div"
-								onclick="changeWallpaper(5)"
-							>
-								<img
-									class="wallpapers"
-									id="wallpaper_5"
-									src="../images/wallpapers/5.jpg"
-								/>
-								<h4>Wallpaper</h4>
-							</div>
-							<div
-								class="wallpaper_div"
-								onclick="changeWallpaper(6)"
-							>
-								<img
-									class="wallpapers"
-									id="wallpaper_6"
-									src="../images/wallpapers/6.jpg"
-								/>
-								<h4>Wallpaper</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- <script type="application/javascript">
+                                <div>
+                                    <h5>Codechef</h5>
+                                    <p class="intern-option">
+                                        <a
+                                            href="https://codeforces.com/profile/Am_nVn"
+                                            target="_blank"
+                                        >
+                                            nvnsharan</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_pages" id="Skills">
+                    <div class="main_page2">
+                        <div class="header">Techanical Skills</div>
+                        <div class="content_head">
+                            <div>
+                                <div class="main_pages_content">
+                                    <h5>Languages</h5>
+                                    <p class="intern-option">
+                                        Python | C++ | Javascript
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_head">
+                            <div>
+                                <div class="main_pages_content">
+                                    <h5>Web development</h5>
+                                    <p class="intern-option">
+                                        React.js | HTML | CSS | Redux |
+                                        Bootstrap
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_head">
+                            <div>
+                                <div class="main_pages_content">
+                                    <h5>Software/Skills</h5>
+                                    <p class="intern-option">
+                                        Data structures and algorithms |
+                                        Autodesk Inventor | Adobe Photoshop |
+                                        Adobe illustrator | VS Code | Linux |
+                                        Firebase | AnyLogic
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_pages" id="Contact">
+                    <div class="main_page2">
+                        <div class="header">Contect</div>
+                        <div class="content_head">
+                            <img src="../images/gmail-logo-16.png" />
+                            <div>
+                                <div class="main_pages_content">
+                                    <h5>Email</h5>
+                                    <p class="intern-option email_add">
+                                        <a
+                                            href="mailto:bb1180026@iitd.ac.in"
+                                            target="_blank"
+                                        >
+                                            bb1180026@iitd.ac.in</a
+                                        >
+                                        |
+                                        <a
+                                            href="mailto:saharan.nvn@gmail.com"
+                                            target="_blank"
+                                        >
+                                            saharan.nvn@gmail.com</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <script type="application/javascript">
 			function resizeIFrameToFitContent(iFrame) {
 				iFrame.width = iFrame.contentWindow.document.body.scrollWidth;
 				iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
@@ -677,7 +491,5 @@
 				console.log(iFrame);
 			});
 		</script> -->
-
-		<script src="../js/about.js"></script>
-	</body>
+    </body>
 </html>
