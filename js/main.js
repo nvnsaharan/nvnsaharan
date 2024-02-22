@@ -104,6 +104,7 @@ themableResume.addEventListener("click", () => {
         },
     });
 });
+
 fbClone.addEventListener("click", () => {
     const fbCloneBox = new WinBox({
         title: "Fb clone",
